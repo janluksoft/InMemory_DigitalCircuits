@@ -15,7 +15,7 @@ There are also similar gates with different functionality (other state tables), 
 By physically connecting (with wires) different gates, simple digital circuits are obtained.
 
 
-![](jpg/A1_adder.png)
+![](jpg/A1_adder.png) <br>
 Fig.A1 Adder 4-bit schema
 
 ## Construction of a 4-bit adder
@@ -24,6 +24,7 @@ For example, connecting AND, OR, XOR logic gates as in Fig. 4BitAdder2 creates a
 Fig.A2 shows the physically made circuit - the role of 4-bit inputs A and B is played by red switches, output C is five LEDs. By switching the switches, we get the appropriate LED lighting. The figure shows the addition made: 7 (0111) + 10 (1010) = 17 (10001). In the adder, the gate pins are connected with green wires and such connections create the adder.
 
 ![](jpg/A2_adder.png)
+
 Fig.A2 Adder 4-bit - physical circuit
 
 -----------
@@ -31,6 +32,7 @@ Fig.A2 Adder 4-bit - physical circuit
 But in this system, you can't perform e.g. subtraction and other operations. You would have to manually change the wire connections. You can connect increasingly complex systems, but then the number of wires increases and the chaos grows. The system below Fig.A3 has a large tangle of cables and still does not allow for easy changes.
 
 ![](jpg/A3_adder.png)
+
 Fig.A3 Advanced digital static layout.
 
 ## Processors - electronic systems with variable functions / capabilities.
@@ -48,5 +50,5 @@ This chapter is part of the <a href="https://github.com/janluksoft/NET_MainCompa
 "Comparison of software development methods from low-level methods to .NET".
 
 The next chapter is:
-<a href="https://github.com/janluksoft/InMemory_Assembler">Direct CPU programming – assembler</a>
+<a href="https://github.com/janluksoft/InMemory_Assembler">Direct CPU programming â€“ assembler</a>
 
